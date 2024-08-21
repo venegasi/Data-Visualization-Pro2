@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#chart-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+svg {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.dot {
+    fill: steelblue;
+    stroke: black;
+    stroke-width: 1px;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+#legend {
+    margin: 10px;
+}
